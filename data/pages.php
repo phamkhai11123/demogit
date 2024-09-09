@@ -1,0 +1,25 @@
+<?php
+    $list_page = array(
+        1 => array(
+            'id'=> 1,
+            'title' => 'Gioi thieu',
+            'date' => '20/12/2023',
+            'content' => '
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo iure ratione fugit libero cum illo accusamus, pariatur explicabo corporis eum dolore velit? Vitae iusto veritatis ducimus laboriosam voluptas odio repudiandae. Sapiente perferendis est suscipit aliquid placeat eligendi aut nesciunt laborum iure ipsa, blanditiis itaque iste. Necessitatibus repellendus repellat, nam fugit ex cupiditate distinctio quibusdam deserunt aliquam laborum soluta, ducimus suscipit reprehenderit dolores. Eum excepturi distinctio, dicta enim quae illum magnam velit nulla deserunt magni. Nulla eligendi unde, vel harum perspiciatis excepturi aspernatur obcaecati neque dolorum! Modi nulla quas, placeat sunt neque esse laboriosam eaque ipsa unde alias quisquam quibusdam aliquam dolores temporibus rem voluptatibus quis deleniti earum. Quis eos dolorem dolor impedit maiores, vero hic magni facilis facere, inventore quod nobis corporis? Architecto unde ipsa obcaecati ex. Repellat a animi temporibus ipsam suscipit ea voluptate nobis dolores deserunt facilis placeat eaque, laboriosam, optio veniam, soluta adipisci obcaecati necessitatibus magni qui aspernatur illum cum? Consectetur perferendis earum incidunt est assumenda nam architecto repudiandae commodi laboriosam consequuntur reiciendis impedit, deserunt ipsa? Quo blanditiis commodi explicabo nulla, voluptas consectetur, aliquid corporis ratione placeat, cumque ex sint libero soluta odit dolore neque totam nemo ipsam quisquam voluptates facilis officia quas veniam. Id, maxime doloribus!'
+        ),
+        2 => array(
+            'id'=> 2,
+            'title' => 'Lien he',
+            'date' => '30/8/2024',
+            'content' => '
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo iure ratione fugit libero cum illo accusamus, pariatur explicabo corporis eum dolore velit? Vitae iusto veritatis ducimus laboriosam voluptas odio repudiandae. Sapiente perferendis est suscipit aliquid placeat eligendi aut nesciunt laborum iure ipsa, blanditiis itaque iste. Necessitatibus repellendus repellat, nam fugit ex cupiditate distinctio quibusdam deserunt aliquam laborum soluta, ducimus suscipit reprehenderit dolores. Eum excepturi distinctio, dicta enim quae illum magnam velit nulla deserunt magni. Nulla eligendi unde, vel harum perspiciatis excepturi aspernatur obcaecati neque dolorum! Modi nulla quas, placeat sunt neque esse laboriosam eaque ipsa unde alias quisquam quibusdam aliquam dolores temporibus rem voluptatibus quis deleniti earum. Quis eos dolorem dolor impedit maiores, vero hic magni facilis facere, inventore quod nobis corporis? Architecto unde ipsa obcaecati ex. Repellat a animi temporibus ipsam suscipit ea voluptate nobis dolores deserunt facilis placeat eaque, laboriosam, optio veniam, soluta adipisci obcaecati necessitatibus magni qui aspernatur illum cum? Consectetur perferendis earum incidunt est assumenda nam architecto repudiandae commodi laboriosam consequuntur reiciendis impedit, deserunt ipsa? Quo blanditiis commodi explicabo nulla, voluptas consectetur, aliquid corporis ratione placeat, cumque ex sint libero soluta odit dolore neque totam nemo ipsam quisquam voluptates facilis officia quas veniam. Id, maxime doloribus!'
+        ),
+        3 => array(
+            'id'=> 3,
+            'title' => 'Mo ta',
+            'date' => '10/11/2022',
+            'content' => '
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo iure ratione fugit libero cum illo accusamus, pariatur explicabo corporis eum dolore velit? Vitae iusto veritatis ducimus laboriosam voluptas odio repudiandae. Sapiente perferendis est suscipit aliquid placeat eligendi aut nesciunt laborum iure ipsa, blanditiis itaque iste. Necessitatibus repellendus repellat, nam fugit ex cupiditate distinctio quibusdam deserunt aliquam laborum soluta, ducimus suscipit reprehenderit dolores. Eum excepturi distinctio, dicta enim quae illum magnam velit nulla deserunt magni. Nulla eligendi unde, vel harum perspiciatis excepturi aspernatur obcaecati neque dolorum! Modi nulla quas, placeat sunt neque esse laboriosam eaque ipsa unde alias quisquam quibusdam aliquam dolores temporibus rem voluptatibus quis deleniti earum. Quis eos dolorem dolor impedit maiores, vero hic magni facilis facere, inventore quod nobis corporis? Architecto unde ipsa obcaecati ex. Repellat a animi temporibus ipsam suscipit ea voluptate nobis dolores deserunt facilis placeat eaque, laboriosam, optio veniam, soluta adipisci obcaecati necessitatibus magni qui aspernatur illum cum? Consectetur perferendis earum incidunt est assumenda nam architecto repudiandae commodi laboriosam consequuntur reiciendis impedit, deserunt ipsa? Quo blanditiis commodi explicabo nulla, voluptas consectetur, aliquid corporis ratione placeat, cumque ex sint libero soluta odit dolore neque totam nemo ipsam quisquam voluptates facilis officia quas veniam. Id, maxime doloribus!'
+        ),
+    );
+?>

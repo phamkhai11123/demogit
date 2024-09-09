@@ -1,0 +1,49 @@
+/*STYLE*/
+@import '../public/css/import/fonts.css';
+@import '../public/css/import/global.css';
+@import '../public/css/import/header.css';
+@import '../public/css/import/footer.css';
+@import '../public/css/import/home.css';
+@import '../public/css/import/category_product.css';
+@import '../public/css/import/detail_product.css';
+@import '../public/css/import/detail_news.css';
+@import '../public/css/import/cart.css';
+@import '../public/css/import/checkout.css';
+@import '../public/css/import/thank.css';
+body{
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 23px;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0px auto;
+}
+.header,.footer{
+    background-color: #029ef3;
+}
+ul.main-menu {
+    text-align: center;
+}
+ul.main-menu li{
+    display: inline-block;
+}
+ul.main-menu li a{
+    display: block;
+    padding: 8px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.content{
+    min-height: 600px;
+    padding: 20px 0px;
+}
+.footer{
+    text-align: center;
+    padding: 5px 0px;
+    color: #fff;
+}
+ul.list-item li a img{
+    width: 100%;
+    height: 200px!important;
+}
