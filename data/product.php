@@ -36,7 +36,7 @@ $list_product = array(
     2 => array(
         'id'=>2,
         'product_title' =>'iPhone 11 Pro Max',
-        'price' => 90000000,
+        'price' => 12000000,
         'code' => 'UNI#1',
         'product_desc' => ' <p>• Dịch vụ hậu mãi chuyên nghiệp: Thế Giới Di Động cung cấp dịch vụ hậu mãi chuyên nghiệp, bao gồm bảo hành, sửa chữa và hỗ trợ kỹ thuật. Điều này giúp bạn yên tâm về việc sử dụng trong thời gian dài.</p>
 
@@ -63,7 +63,7 @@ $list_product = array(
     4 => array(
         'id'=>4,
         'product_title' =>'MacBook Air M1 13 inch 8GB/256GB - Chính Hãng VN',
-        'price' => 60000000,
+        'price' => 30000000,
         'code' => 'UNI#2',
         'product_desc' => 'MacBook Air M1 8GB/256GB - Lời chia tay với Intel và X86
         <p> Apple M1 - “Quái vật” trong làng laptop </p>
@@ -74,7 +74,7 @@ $list_product = array(
     5 => array(
         'id'=>5,
         'product_title' =>'Macbook Air 2022 13.6 inch  MLY43  Midnight  Apple M2 ',
-        'price' => 40000000,
+        'price' => 25000000,
         'code' => 'UNI#2',
         'product_desc' => 'MacBook Air M1 8GB/256GB - Lời chia tay với Intel và X86
         <p> Apple M1 - “Quái vật” trong làng laptop </p>
@@ -85,7 +85,7 @@ $list_product = array(
     6 => array(
         'id'=>6,
         'product_title' =>'Macbook Air 2022 13.6 inch  MLXW3  Grey  Apple M2  8GB RAM 256GB SSDATOL',
-        'price' => 90000000,
+        'price' => 27000000,
         'code' => 'UNI#2',
         'product_desc' => 'MacBook Air M1 8GB/256GB - Lời chia tay với Intel và X86
         <p> Apple M1 - “Quái vật” trong làng laptop </p>
@@ -110,7 +110,7 @@ Laptop ASUS TUF Gaming A15 FA507NV-LP110W được trang bị bộ vi xử lý A
     8 => array(
         'id'=>8,
         'product_title' =>'Laptop Lenovo LOQ 15IAX9 83GS001RVN',
-        'price' => 50000000,
+        'price' => 30000000,
         'code' => 'UNI#3',
         'product_desc' => 'Laptop ASUS TUF Gaming A15 FA507NV-LP110W mạnh mẽ, hiệu suất cao
  <p>Laptop ASUS TUF Gaming A15 FA507NV-LP110W là một chiếc laptop ASUS gaming mạnh mẽ, phù hợp cho những game thủ muốn trải nghiệm chơi game mượt mà với đồ họa đẹp mắt. Sở hữu rất nhiều ưu điểm vượt trội, chắc chắn rằng đây sẽ là lựa chọn hoàn hảo mà bất kỳ game thủ nào cũng không nên bỏ lỡ. </p>
@@ -123,7 +123,7 @@ Laptop ASUS TUF Gaming A15 FA507NV-LP110W được trang bị bộ vi xử lý A
     9 => array(
         'id'=>9,
         'product_title' =>'Laptop Dell Inspiron 15 3520-5810BLK 102F0',
-        'price' => 72000000,
+        'price' => 19000000,
         'code' => 'UNI#3',
         'product_desc' => 'Laptop ASUS TUF Gaming A15 FA507NV-LP110W mạnh mẽ, hiệu suất cao
  <p>Laptop ASUS TUF Gaming A15 FA507NV-LP110W là một chiếc laptop ASUS gaming mạnh mẽ, phù hợp cho những game thủ muốn trải nghiệm chơi game mượt mà với đồ họa đẹp mắt. Sở hữu rất nhiều ưu điểm vượt trội, chắc chắn rằng đây sẽ là lựa chọn hoàn hảo mà bất kỳ game thủ nào cũng không nên bỏ lỡ. </p>

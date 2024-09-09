@@ -69,19 +69,38 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                        <?php
+                                            if(isset($_SESSION['cart'])){
+                                           ?>
+                                           <?php
+                                           foreach($_SESSION['cart']['buy'] as $item){
+                                           ?>
                                             <tr class="cart-item">
-                                                <td class="product-name">Iphone 7 Gray<strong class="product-quantity">x 1</strong></td>
-                                                <td class="product-total">7,500,000đ</td>
-                                            </tr>
-                                            <tr class="cart-item">
-                                                <td class="product-name">Iphone 6S Blue<strong class="product-quantity">x 1</strong></td>
-                                                <td class="product-total">5,500,000đ</td>
-                                            </tr>
+                                            <td class="product-name"><?php echo $item['product_title'] ?><strong class="product-quantity">x <?php echo$item['qty'] ?></strong></td>
+                                            <td class="product-total"><?php echo number_format($item['price']*$item['qty']) ?></td>
+                                        </tr>
+
+                                          <?php }?>
+                                           
+
+                                         <?php   }
+                                        ?>
+                                            
+                                           
                                         </tbody>
                                         <tfoot>
                                             <tr class="order-total">
                                                 <td>Tổng đơn hàng:</td>
-                                                <td><strong class="total-price">17,200,000đ</strong></td>
+                                                <?php 
+                                                if(isset($_SESSION['cart']['info'])){
+                                                    // show_array($_SESSION['cart']['info']);
+                                                    $info = $_SESSION['cart']['info'];
+                                                    ?>
+                        <td><strong class="total-price"><?php echo number_format($info['total']) ?> </strong></td>
+                                                    <?php
+                                                }
+                                                ?>
+                                                
                                             </tr>
                                         </tfoot>
                                     </table>
@@ -98,7 +117,7 @@
                                         </ul>
                                     </div>
                                     <div class="place-order-wp clearfix">
-                                        <button type="submit" name="checkout">Đặt hàng</button>
+                                        <button type="submit" name="checkout"><a style="color: white;" href="?mod=cart&act=thank">Đặt hàng</a> </button>
                                     </div>
                                 </div>
                             </div>

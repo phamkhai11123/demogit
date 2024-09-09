@@ -82,7 +82,7 @@
                                 <div class="clearfix">
                                     <div class="fl-right">
                                         <input type="submit" id="update-cart" name="btn-update" value="Cập nhật giỏ hàng">
-                                        <a href="?page=checkout" title="" id="checkout-cart">Thanh toán</a>
+                                        <a href="?mod=cart&act=checkout" title="" id="checkout-cart">Thanh toán</a>
                                     </div>
                                 </div>
                             </td>
