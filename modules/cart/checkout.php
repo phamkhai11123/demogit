@@ -1,3 +1,4 @@
+<?php get_header();?>
 <div id="main-content-wp" class="checkout-page ">
     <div class="wp-inner clearfix">
         <div id="sidebar" class="fl-left">
@@ -128,3 +129,6 @@
         </div>
     </div>
 </div>
+<?php
+        get_footer();
+    ?>   

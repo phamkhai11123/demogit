@@ -1,3 +1,4 @@
+<?php get_header();?>
 <div id="main-content-wp" class="detail-product-page clearfix">
     <div class="wp-inner clearfix">
         <?php
@@ -20,9 +21,9 @@
                             <p><?php echo$item['product_title'] ?></p>
                         </div>
                         <div class="num-order-wp">
-                            <span>Số lượng:</span>
-                            <input type="text" id="num-order" name="num-order" value="1">
-                            <a href="?mod=cart&act=add&id=<?php echo $item['id']; ?>" title="" class="add-to-cart">Thêm giỏ hàng</a>
+                            <!-- <span>Số lượng:</span>
+                            <input type="text" id="num-order" name="num-order" value="1"> -->
+                            <a style="margin-left: 0px;" href="?mod=cart&act=add&id=<?php echo $item['id']; ?>" title="" class="add-to-cart">Thêm giỏ hàng</a>
                         </div>
 
                     </div>
@@ -39,3 +40,6 @@
         </div>
     </div>
 </div>
+<?php
+        get_footer();
+    ?>   

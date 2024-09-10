@@ -1,9 +1,10 @@
 <?php 
+ get_header();
     if(isset($_SESSION['cart'])){
         $list_cart_item = $_SESSION['cart']['buy'];
         $cart_info = $_SESSION['cart']['info'];
     }
-    
+    // show_array($_SESSION['cart']);
 ?>
 <div id="main-content-wp" class="cart-page">
     <div class="section" id="breadcrumb-wp">
@@ -45,9 +46,10 @@
                             </td>
                             <td><?php echo number_format( $item['price']) ?></td>
                             <td>
-                                <input type="number" min="1" max="10" name="qty[<?php echo$item['id']?>]" value="<?php echo$item['qty']?>" class="num-order">
+                                <input class="num-order" data-id="<?php echo$item['id'] ?>" 
+                                type="number" min="1" max="10" name="qty[<?php echo$item['id']?>]" value="<?php echo$item['qty']?>" >
                             </td>
-                            <td><?php echo number_format( $item['sub_total']) ?></td>
+                            <td id="sub-total-<?php echo$item['id'] ?>"><?php echo number_format( $item['sub_total']) ?></td>
                             <td>
                                 <a href="?mod=cart&act=delete&id=<?php echo$item['id']; ?>" title="" class="del-product"><i class="fa fa-trash-o"></i></a>
                             </td>
@@ -95,10 +97,13 @@
         </div>
         <div class="section" id="action-cart-wp">
             <div class="section-detail">
-                <p class="title">Click vào <span>“Cập nhật giỏ hàng”</span> để cập nhật số lượng. Nhập vào số lượng <span>0</span> để xóa sản phẩm khỏi giỏ hàng. Nhấn vào thanh toán để hoàn tất mua hàng.</p>
+                <p class="title">Click vào <span>“Cập nhật giỏ hàng”</span> để cập nhật số lượng. Nhấn vào thanh toán để hoàn tất mua hàng.</p>
                 <a href="?page=home" title="" id="buy-more">Mua tiếp</a><br/>
                 <a href="?mod=cart&act=delete_all" title="" id="delete-cart">Xóa giỏ hàng</a>
             </div>
         </div>
     </div>
 </div>
+<?php
+        get_footer();
+    ?>   

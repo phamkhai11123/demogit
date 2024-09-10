@@ -1,3 +1,4 @@
+<?php get_header();?>
 <div id="main-content-wp" class="home-page">
     <div class="wp-inner clearfix">
        <?php get_sidebar(); ?>
@@ -77,3 +78,6 @@
         </div>
     </div>
 </div>
+<?php
+        get_footer();
+    ?>   

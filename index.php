@@ -8,7 +8,7 @@
         require "lib/url.php";
         require "lib/template.php";
 
-        get_header();
+        // get_header();
     ?>
         <?php
 
@@ -23,6 +23,4 @@
         
         ?>
 
-        <?php
-        get_footer();
-    ?>   
+       
